@@ -11,10 +11,10 @@ class Dice:
 
 
 if __name__ == "__main__":
-    num_role = 3
+    num_rolls = 3
     dice = Dice()
     rslt = []
 
-    for a in range(num_role):
+    for a in range(num_rolls):
         rslt.append(dice.roll_dice())
     print(rslt)
